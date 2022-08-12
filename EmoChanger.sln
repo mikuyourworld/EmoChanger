@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelChanger", "ModelChanger\ModelChanger.csproj", "{350FFADE-E06D-49D2-8179-0FDAECB1E176}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmoChanger", "EmoChanger\EmoChanger.csproj", "{350FFADE-E06D-49D2-8179-0FDAECB1E176}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

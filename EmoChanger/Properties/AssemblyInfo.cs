@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Reflection;
 using MelonLoader;
-using ModelChanger;
-using BuildInfo = ModelChanger.BuildInfo;
+using EmoChanger;
+using BuildInfo = EmoChanger.BuildInfo;
 
 [assembly: AssemblyTitle(BuildInfo.Description)]
 [assembly: AssemblyDescription(BuildInfo.Description)]

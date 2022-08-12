@@ -3,15 +3,15 @@ using MelonLoader;
 using UnhollowerRuntimeLib;
 using UnityEngine;
 
-namespace ModelChanger
+namespace EmoChanger
 {
     public static class BuildInfo
     {
-        public const string Name = "Model Changer";
+        public const string Name = "Emo Changer";
         public const string Description = null;
-        public const string Author = "portra";
+        public const string Author = "miku";
         public const string Company = null;
-        public const string Version = "0.0.6";
+        public const string Version = "0.0.1";
         public const string DownloadLink = null;
     }
     public class Loader : MelonMod

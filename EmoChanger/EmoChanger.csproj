@@ -7,8 +7,8 @@
     <ProjectGuid>{350FFADE-E06D-49D2-8179-0FDAECB1E176}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModelChanger</RootNamespace>
-    <AssemblyName>ModelChanger</AssemblyName>
+    <RootNamespace>EmoChanger</RootNamespace>
+    <AssemblyName>EmoChanger</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,37 +32,47 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="MelonLoader, Version=0.5.4.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\MelonLoader.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="UnhollowerBaseLib, Version=0.4.17.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
     </Reference>
     <Reference Include="UnhollowerRuntimeLib, Version=0.4.10.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Games\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Genshin Impact\Genshin Impact game\MelonLoader\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
